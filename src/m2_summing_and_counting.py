@@ -144,6 +144,21 @@ def run_test_count_sines_from():
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
+    expected = 4
+    answer = count_sines_from(5, 10)
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 4
+    answer = count_sines_from(0, 5)
+    print('Test 5 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 2
+    answer = count_sines_from(3, 4)
+    print('Test 6 expected:', expected)
+    print('       actual:  ', answer)
+
     # ------------------------------------------------------------------
     # TO DO: 4 (continued).
     # Below this comment, add 5 more test cases of your own choosing.
@@ -211,12 +226,27 @@ def run_test_count_sines_vs_cosines():
 
     expected = 11
     answer = count_sines_vs_cosines(10)
-    print('Test 1 expected:', expected)
+    print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 0
     answer = count_sines_vs_cosines(0)
-    print('Test 1 expected:', expected)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 32
+    answer = count_sines_vs_cosines(30)
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 20
+    answer = count_sines_vs_cosines(20)
+    print('Test 5 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 6
+    answer = count_sines_vs_cosines(6)
+    print('Test 6 expected:', expected)
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
